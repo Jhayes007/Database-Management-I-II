@@ -1,0 +1,33 @@
+
+Table EMPLOYEE created.
+
+
+Error starting at line : 8 in command -
+insert into Employee values ('E001', 'Brent Ewing', '10-15-2016')
+Error at Command Line : 8 Column : 13
+Error report -
+SQL Error: ORA-00947: not enough values
+00947. 00000 -  "not enough values"
+*Cause:    
+*Action:
+
+Error starting at line : 8 in command -
+insert into Employee values ('E001', 'Brent Ewing', '2016-15-10', 'M', 2)
+Error report -
+ORA-01861: literal does not match format string
+
+
+Session altered.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
+
+1 row inserted.
+
